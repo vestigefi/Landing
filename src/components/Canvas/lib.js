@@ -1,5 +1,5 @@
 const CELL_SIZE = 4;
-const BORDER_WIDTH = 2;
+const BORDER_WIDTH = 1;
 const MAX_FONT_SIZE = 160;
 const MAX_ELECTRONS = 0;
 const CELL_DISTANCE = CELL_SIZE + BORDER_WIDTH;
@@ -13,7 +13,7 @@ const CELL_REPAINT_INTERVAL = [
 
 const BG_COLOR = '#0f0f0f';
 const BORDER_COLOR = '#0f0f0f';
-const ELECTRON_COLOR = '#fff';
+const ELECTRON_COLOR = '#303030';
 
 const DPR = window.devicePixelRatio || 1;
 

@@ -20,8 +20,8 @@ function App() {
         <>
             <Canvas />
             <div className="text-white flex h-full w-full items-center justify-center">
-                <div className="max-w-screen-xl text-center">
-                    <div>
+                <div className="max-w-screen-xl flex flex-col items-center text-center">
+                    <div className="max-w-screen-sm">
                         <p className="text-xl font-josefin">
                             <b className="italic font-bold">Vest Labs</b>
                             <span className="opacity-80">
