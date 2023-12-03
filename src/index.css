@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: JosefinSans;
+    src: url('/fonts/JosefinSans.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Prompt;
+    font-display: swap;
+    src: url('/fonts/Prompt-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Algo;
+    font-display: swap;
+    src: url('/fonts/Algo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Inter;
+    font-display: swap;
+    src: url('/fonts/Inter-Light.ttf') format('truetype');
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background: #0f0f0f;
+}
+
+.font-prompt {
+    font-family: Prompt, Arial, sans-serif !important;
+    font-weight: 300;
+}
+
+.font-prompt-bold {
+    font-family: Prompt, Arial, sans-serif !important;
+    font-weight: 600;
+}
+
+.font-josefin {
+    font-family: Josefin Sans, Arial, sans-serif !important;
+    font-weight: 300;
+}
+
+.font-josefin-bold {
+    font-family: Josefin Sans, Arial, sans-serif !important;
+    font-weight: 400;
+}
+
+.font-algo {
+    font-family: Algo, Arial, sans-serif !important;
+}
+
+.font-mono {
+    font-family: Roboto Mono, monospace !important;
+}
