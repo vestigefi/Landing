@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import Canvas from './components/Canvas';
 import Card from './components/Card';
 
@@ -17,8 +16,6 @@ import tamequest2 from './screenshots/tamequest2.png';
 import tamequest3 from './screenshots/tamequest3.png';
 
 function App() {
-    const [count, setCount] = useState(0);
-
     return (
         <>
             <Canvas />
@@ -85,7 +82,7 @@ function App() {
                                 title="TameQuest"
                                 subtitle="Decentralized VRF Pet Battler Game"
                                 url="https://testnet.tamequest.com"
-                                screenshots={[tamequest1, tamequest2]}
+                                screenshots={[tamequest1, tamequest2, tamequest3]}
                             />
                             <Card
                                 title="Dojex"

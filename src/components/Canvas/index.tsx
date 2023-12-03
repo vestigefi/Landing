@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+// @ts-ignore
 import { shape } from './lib';
 
 function Canvas() {
