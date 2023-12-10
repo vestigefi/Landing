@@ -7,8 +7,8 @@ const CELL_DISTANCE = CELL_SIZE + BORDER_WIDTH;
 // shorter for brighter paint
 // be careful of performance issue
 const CELL_REPAINT_INTERVAL = [
-    300, // from
-    600, // to
+    900, // from
+    1500, // to
 ];
 
 const BG_COLOR = '#0f0f0f';
@@ -41,7 +41,7 @@ class FullscreenCanvas {
         const { canvas, context, disableScale } = this;
 
         const height = 300;
-        const width = window.innerWidth;
+        const width = window.innerWidth - 40;
 
         this.width = width;
         this.height = height;

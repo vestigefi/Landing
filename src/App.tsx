@@ -18,12 +18,14 @@ import tamequest3 from './screenshots/tamequest3.png';
 function App() {
     return (
         <>
-            <Canvas />
+            <div className="flex w-full p-4">
+                <Canvas />
+            </div>
             <div className="text-white flex h-full w-full items-center justify-center">
                 <div className="max-w-screen-xl flex flex-col items-center text-center">
                     <div className="max-w-screen-sm">
                         <p className="text-xl font-josefin">
-                            <b className="italic font-bold">Vest Labs</b>
+                            <b className="italic font-bold">Vestige Labs</b>
                             <span className="opacity-80">
                                 {' '}
                                 is a blockchain software development company focused on the practical applications of
